@@ -49,6 +49,7 @@ function Login() {
 const LoginMain = styled.div`
   width: 100%;
   height: 100vh;
+  padding-top: 50px;
 `;
 
 const MainTitle = styled.div`
@@ -59,7 +60,6 @@ const MainTitle = styled.div`
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  margin-top: 60px;
 `;
 
 const TitleIcons = styled.div`
@@ -67,7 +67,7 @@ const TitleIcons = styled.div`
   font-size: 70px;
 `;
 const LoginWriteBox = styled.div`
-  height: 40%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -77,19 +77,21 @@ const LoginWriteBox = styled.div`
 
 const LoginTitle = styled.div`
   font-size: 40px;
-  margin-right: 400px;
+  margin-right: 33%;
   font-weight: bold;
 `;
 
 const LoginWriteInput = styled.input`
-  width: 500px;
-  height: 50%;
+  width: 40%;
+  height: 35%;
   border-radius: 15px;
   text-align: center;
   font-size: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
 `;
 const PassawordWriteBox = styled.div`
-  height: 50%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -98,16 +100,24 @@ const PassawordWriteBox = styled.div`
 `;
 const PasswordTitle = styled.div`
   font-size: 40px;
-  margin-right: 360px;
+  margin-right: 33%;
   font-weight: bold;
 `;
 
 const PasswordWriteInput = styled.input`
-  width: 500px;
-  height: 40%;
+  width: 40%;
+  height: 35%;
   border-radius: 15px;
   text-align: center;
   font-size: 30px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.2);
+`;
+const LoginCheck = styled.div`
+  font-size: 40px;
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
 `;
 
 const SubmitBox = styled.div`
@@ -116,12 +126,6 @@ const SubmitBox = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-`;
-
-const LoginCheck = styled.div`
-  font-size: 20px;
-  color: red;
-  text-align: center;
 `;
 
 const SubmitBtn = styled.button`

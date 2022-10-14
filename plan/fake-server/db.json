@@ -1,0 +1,41 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "title": "첫 메모 제목",
+      "body": "첫 메모 내용"
+    },
+    {
+      "userId": "asd1",
+      "userPwd": "asdf!@",
+      "id": 2
+    },
+    {
+      "userId": "asdf1",
+      "userPwd": "asdf!@",
+      "id": 3
+    },
+    {
+      "userId": "zxc1",
+      "userPwd": "zxcv!@",
+      "id": 4
+    },
+    {
+      "userId": "asdfg1",
+      "userPwd": "qwer!@",
+      "id": 5
+    },
+    {
+      "userId": "qwert1",
+      "userPwd": "qwas!@",
+      "id": 6
+    }
+  ],
+  "plan": [
+    {
+      "id": 1,
+      "title": "첫 메모 제목",
+      "body": "첫 메모 내용"
+    }
+  ]
+}
